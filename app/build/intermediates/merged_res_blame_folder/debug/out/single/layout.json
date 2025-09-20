@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.vpnfirewall.app-mergeDebugResources-45:/layout/item_profile.xml",
+        "source": "com.vpnfirewall.app-main-48:/layout/item_profile.xml"
+    },
+    {
+        "merged": "com.vpnfirewall.app-mergeDebugResources-45:/layout/item_app.xml",
+        "source": "com.vpnfirewall.app-main-48:/layout/item_app.xml"
+    },
+    {
+        "merged": "com.vpnfirewall.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.vpnfirewall.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.vpnfirewall.app-mergeDebugResources-45:/layout/fragment_apps.xml",
+        "source": "com.vpnfirewall.app-main-48:/layout/fragment_apps.xml"
+    },
+    {
+        "merged": "com.vpnfirewall.app-mergeDebugResources-45:/layout/fragment_stats.xml",
+        "source": "com.vpnfirewall.app-main-48:/layout/fragment_stats.xml"
+    },
+    {
+        "merged": "com.vpnfirewall.app-mergeDebugResources-45:/layout/fragment_profiles.xml",
+        "source": "com.vpnfirewall.app-main-48:/layout/fragment_profiles.xml"
+    }
+]

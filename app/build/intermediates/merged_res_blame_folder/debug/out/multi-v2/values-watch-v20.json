@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.vpnfirewall.app-mergeDebugResources-44:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/codespace/.gradle/caches/8.14.2/transforms/70d2da951a94b4af27f8a542180c5eea/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
