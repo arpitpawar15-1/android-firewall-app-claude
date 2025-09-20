@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VPN Firewall</string>
+    <string name="vpn_service_description">VPN Firewall blocks unwanted network traffic</string>
+    <string name="notification_channel_name">VPN Firewall Service</string>
+    <string name="notification_channel_description">Shows VPN firewall status</string>
+</resources>
