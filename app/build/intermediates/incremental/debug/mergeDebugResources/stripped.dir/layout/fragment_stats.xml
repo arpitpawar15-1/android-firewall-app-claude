@@ -17,7 +17,56 @@
             android:layout_height="?attr/actionBarSize"
             app:title="Statistics" />
 
-        <!-- VPN Status Card -->
+        <!-- VPN Status -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <View
+                android:id="@+id/indicatorVpnStatus"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/circle_indicator" />
+
+            <TextView
+                android:id="@+id/textVpnStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Inactive"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Statistics -->
+        <TextView
+            android:id="@+id/textBlockedRequests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textAllowedRequests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textTotalDataSaved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 MB" />
+
+        <TextView
+            android:id="@+id/textActiveApps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <!-- Real-time Monitoring Switch -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,18 +100,14 @@
                         android:text="Monitor network speeds and activity"
                         android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
                         android:textColor="?attr/colorOnSurfaceVariant" />
-
                 </LinearLayout>
 
                 <com.google.android.material.materialswitch.MaterialSwitch
                     android:id="@+id/switch_real_time_monitoring"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-
             </LinearLayout>
-
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
-
 </ScrollView>

@@ -1,7 +1,9 @@
+// PacketProcessor.kt
 package com.vpnfirewall.vpn
 
 import com.vpnfirewall.data.ConnectionType
 import com.vpnfirewall.repository.FirewallRepository
+import kotlinx.coroutines.runBlocking
 import java.nio.ByteBuffer
 
 class PacketProcessor {
@@ -23,7 +25,8 @@ class PacketProcessor {
             val packageName = identifySourceApp(destIp, destPort)
             
             if (packageName != null) {
-                val rule = repository.getAppRule(packageName)
+                // Use runBlocking to call suspend function
+                val rule = runBlocking { repository.getAppRule(packageName) }
                 val connectionType = getCurrentConnectionType()
                 
                 if (rule != null && rule.isBlocked(connectionType)) {

@@ -1,62 +1,66 @@
 [
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/drawable_ic_apps.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/drawable/ic_apps.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/drawable_ic_android.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/drawable/ic_android.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/drawable_circle_indicator.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/drawable/circle_indicator.xml"
-    },
-    {
-        "merged": "com.vpnfirewall.app-merged_res-46:/drawable_ic_profile.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/drawable/ic_profile.xml"
-    },
-    {
-        "merged": "com.vpnfirewall.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/xml/data_extraction_rules.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/menu_bottom_navigation.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/menu/bottom_navigation.xml"
     },
     {
         "merged": "com.vpnfirewall.app-merged_res-46:/layout_fragment_stats.xml.flat",
         "source": "com.vpnfirewall.app-main-48:/layout/fragment_stats.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/xml_backup_rules.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/xml/backup_rules.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/layout_fragment_apps.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/layout/fragment_apps.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/drawable_ic_stats.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/drawable/ic_stats.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/layout_fragment_profiles.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/layout/fragment_profiles.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/layout_fragment_apps.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/layout/fragment_apps.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/menu_bottom_navigation.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/menu/bottom_navigation.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/layout_fragment_stats.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/layout/fragment_stats.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/drawable_ic_stats.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/drawable/ic_stats.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/drawable_ic_profile.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/drawable/ic_profile.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/layout_activity_main.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/layout/activity_main.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/layout_item_profile.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/layout/item_profile.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/drawable_ic_shield.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/drawable/ic_shield.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/layout_fragment_profiles.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/layout/fragment_profiles.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/layout_item_profile.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/layout/item_profile.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/drawable_ic_apps.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/drawable/ic_apps.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/layout_item_app.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/layout/item_app.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/drawable_circle_indicator.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/drawable/circle_indicator.xml"
     },
     {
-        "merged": "com.vpnfirewall.app-merged_res-46:/drawable_ic_android.xml.flat",
-        "source": "com.vpnfirewall.app-main-48:/drawable/ic_android.xml"
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/layout_item_app.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/layout/item_app.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-merged_res-46:/drawable_ic_shield.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.vpnfirewall.app-main-48:/drawable/ic_shield.xml"
     }
 ]

@@ -40,6 +40,7 @@ id fab_vpn_toggle
 id fragment_container
 id image_app_icon
 id image_profile_icon
+id indicatorVpnStatus
 id layout_domain_filtering
 id nav_apps
 id nav_profiles
@@ -52,6 +53,11 @@ id switch_master
 id switch_mobile
 id switch_real_time_monitoring
 id switch_wifi
+id textActiveApps
+id textAllowedRequests
+id textBlockedRequests
+id textTotalDataSaved
+id textVpnStatus
 id text_app_name
 id text_current_profile
 id text_filter_mode

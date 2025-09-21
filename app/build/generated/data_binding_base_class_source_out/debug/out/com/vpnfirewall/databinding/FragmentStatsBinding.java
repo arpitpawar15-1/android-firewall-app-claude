@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -21,15 +22,42 @@ public final class FragmentStatsBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final View indicatorVpnStatus;
+
+  @NonNull
   public final MaterialSwitch switchRealTimeMonitoring;
+
+  @NonNull
+  public final TextView textActiveApps;
+
+  @NonNull
+  public final TextView textAllowedRequests;
+
+  @NonNull
+  public final TextView textBlockedRequests;
+
+  @NonNull
+  public final TextView textTotalDataSaved;
+
+  @NonNull
+  public final TextView textVpnStatus;
 
   @NonNull
   public final MaterialToolbar toolbar;
 
-  private FragmentStatsBinding(@NonNull ScrollView rootView,
-      @NonNull MaterialSwitch switchRealTimeMonitoring, @NonNull MaterialToolbar toolbar) {
+  private FragmentStatsBinding(@NonNull ScrollView rootView, @NonNull View indicatorVpnStatus,
+      @NonNull MaterialSwitch switchRealTimeMonitoring, @NonNull TextView textActiveApps,
+      @NonNull TextView textAllowedRequests, @NonNull TextView textBlockedRequests,
+      @NonNull TextView textTotalDataSaved, @NonNull TextView textVpnStatus,
+      @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
+    this.indicatorVpnStatus = indicatorVpnStatus;
     this.switchRealTimeMonitoring = switchRealTimeMonitoring;
+    this.textActiveApps = textActiveApps;
+    this.textAllowedRequests = textAllowedRequests;
+    this.textBlockedRequests = textBlockedRequests;
+    this.textTotalDataSaved = textTotalDataSaved;
+    this.textVpnStatus = textVpnStatus;
     this.toolbar = toolbar;
   }
 
@@ -60,9 +88,45 @@ public final class FragmentStatsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.indicatorVpnStatus;
+      View indicatorVpnStatus = ViewBindings.findChildViewById(rootView, id);
+      if (indicatorVpnStatus == null) {
+        break missingId;
+      }
+
       id = R.id.switch_real_time_monitoring;
       MaterialSwitch switchRealTimeMonitoring = ViewBindings.findChildViewById(rootView, id);
       if (switchRealTimeMonitoring == null) {
+        break missingId;
+      }
+
+      id = R.id.textActiveApps;
+      TextView textActiveApps = ViewBindings.findChildViewById(rootView, id);
+      if (textActiveApps == null) {
+        break missingId;
+      }
+
+      id = R.id.textAllowedRequests;
+      TextView textAllowedRequests = ViewBindings.findChildViewById(rootView, id);
+      if (textAllowedRequests == null) {
+        break missingId;
+      }
+
+      id = R.id.textBlockedRequests;
+      TextView textBlockedRequests = ViewBindings.findChildViewById(rootView, id);
+      if (textBlockedRequests == null) {
+        break missingId;
+      }
+
+      id = R.id.textTotalDataSaved;
+      TextView textTotalDataSaved = ViewBindings.findChildViewById(rootView, id);
+      if (textTotalDataSaved == null) {
+        break missingId;
+      }
+
+      id = R.id.textVpnStatus;
+      TextView textVpnStatus = ViewBindings.findChildViewById(rootView, id);
+      if (textVpnStatus == null) {
         break missingId;
       }
 
@@ -72,7 +136,9 @@ public final class FragmentStatsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentStatsBinding((ScrollView) rootView, switchRealTimeMonitoring, toolbar);
+      return new FragmentStatsBinding((ScrollView) rootView, indicatorVpnStatus,
+          switchRealTimeMonitoring, textActiveApps, textAllowedRequests, textBlockedRequests,
+          textTotalDataSaved, textVpnStatus, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
